@@ -229,6 +229,26 @@ h3 {
     width: 410px;
     vertical-align: top;
     color: white;
-    margin: 30px 0 0 60 px;
+    margin: 60px -32px 0px 60px;
     text-align: left;
 }
+
+.contact-info h3 {
+    color:#fce138;
+    font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+    margin: 20 px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact-info a {
+    color:#fce138
+}
+
+/* Reach out styles end */
+
+
