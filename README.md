@@ -1,0 +1,13 @@
+# run-buddy
+
+## Purpose
+A website that offers fitness training services.
+
+## Built With
+*HTML
+*CSS
+
+## Website
+http://zurisha7.github.io/run-buddy/
+
+Made with ❤️ by Andrea West
