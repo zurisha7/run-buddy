@@ -10,6 +10,9 @@ body {color: #39a6b2;
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 } 
 
 header h1 {
@@ -27,7 +30,6 @@ header a {text-decoration: none;
 color: #fce138;}
 
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
