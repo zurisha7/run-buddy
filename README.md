@@ -11,3 +11,5 @@ A website that offers fitness training services.
 http://zurisha7.github.io/run-buddy/
 
 Made with ❤️ by Andrea West
+
+### ©2019 Run Buddy, Inc
