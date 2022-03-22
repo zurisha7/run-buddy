@@ -42,33 +42,40 @@
 
         <!-- hero/jumbotron -->
         
-        <section>
         <section class="hero">
+            
+            <div class="hero-cta">
+                <h2>Start Building Habits</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                </p>
+            </div>
+        
             <div>
                 <div class="hero-form">
                 <h3> Get Started Today</h3>
                 <p>Fill out this form and one of our trainers will schedule a consult</p>
             <!-- Add form element -->
-            <form>
-                <name>
-                    <label for="name">Enter full name:</Label>
-                        <br>
-                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input">
-                    <br><br>
-                </name>
+                <form>
+                    <name>
+                        <label for="name">Enter full name:</Label>
+                        <br />
+                        <input type="text" placeholder="Your Name" name="name" id="name" class="form-input">
+                        <br /><br />
+                    </name>
                     
-                <email>
-                    <label for="email address">Enter email address:</label>
-                    <br>
-                    <input type="email" placeholder="Email Address" name="email" id="email" class="form-input">
-                </email>
-                    <br><br>
+                    <email>
+                        <label for="email address">Enter email address:</label>
+                        <input type="email" placeholder="Email Address" name="email" id="email" class="form-input">
+                    <br /><br />
+                    </email>
+                    
                 <number>
                     <label for="phone number">Enter phone number:</label>
                     <br>
                     <input type="tel" placeholder="Phone Number" name="number" id="number" class="form-input">
+                    <br><br>
                 </number>
-                <br><br>
+                
                 <p>
                     Have you ever worked with a trainer before?
                     <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -87,14 +94,19 @@
             </div>
         </section>
 
+            
+
         <!-- End Hero Section-->
 
         <!-- "What We Do" section -->
         
         <section>
             <section id="what-we-do" class="intro">
-                <h2 class="section-title primary-border">
-                What We Do</h2>
+                <div class="flex-row">
+                    <h2 class="section-title primary-border">
+                    What We Do
+                    </h2>
+                </div>
             <p>
                 butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you 
                 probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson
@@ -106,29 +118,30 @@
         
         <section>
             <section id="what-you-do" class="steps">
-
-            <h2 class="section-title secondary-border" What You Do></h2>
-
-            <div>
+            <div class="flex-row">
+                <h2 class="section-title secondary-border" What You Do></h2>
+            </div>
+            
+            <div class="steps">
                 <!--insert this img element -->
-                <img src="./assets/images/step-1.svg" alt="" />
-                <h3>Step 1: <span>Fill out the Form Above.</span></h3>
-                <p>You're already here, so why not?</p>
+                <img src="./assets/images/step-1.svg" alt="" />                
+                    <h3>Step 1: <span> Fill out the Form Above. </span> </h3>
+                    <p>You're already here, so why not?</p>
             </div>
 
-            <div>
+            <div class="steps">
                 <img src="./assets/images/step-2.svg" alt="" />
-                <h3>Step 2:<span> Consult with One of Our Trainers</span></h3>
-                <p>Are you here to build muscle, lose weight, or just feel good?</p>
+                    <h3>Step 2:<span> Consult with One of Our Trainers </span> </h3>
+                    <p>Are you here to build muscle, lose weight, or just feel good?</p>
             </div>
 
-            <div>
+            <div class="steps">
                 <img src="./assets/images/step-3.svg" alt="" />
                 <h3> Step 3: <span>Get Running.</span></h3>
                 <p>Hit the ground running (literally) once your trainer lays out your plan. </p>
-            </div>
-
             <div>
+
+            <div class="steps">
                 <img src="./assets/images/step-4.svg">
                 <h3>Step 4:<span> See Results.</span> </h3>
                 <p>Bi-weekly checkins with your trainer will keep you focused</p>
@@ -137,32 +150,40 @@
 
 
         <!--"meet the trainers" -->
-        <section>
-            <section id="your-trainers" class="trainers">
-            <h2 class="section-title primary-border"> Meet the Trainers</h2>
+        
+        <section id="your-trainers" class="trainers">
+            <div class="flex-row">
+                <h2 class="section-title primary-border"> Meet the Trainers</h2>
+            </div>
 
         <!--First trainer bio-->
             <article class="trainer">
                 <img src= "./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes ready to pump iron">
                 <div class="trainer-bio text-left">
-                    <h3>Arron Stephens</h3>
-                    <h4>Speed / Strength</h4>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
-      itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
-                </p>
-            </div>
+                    <h3> Arron Stephens </h3>
+                    <h4> Speed / Strength </h4>
+                
+                    <div class="flex-row">
+                        <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+                        itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                        </p>
+                    </div>
+                </div>
             </article>
 
         <!-- second trainer bio -->
         <article class="trainer">
             <div class="trainer-bio text-right">
-                <h3>Joanna Gill</h3>
-                <h4>Endurance</h4>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
-                    itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
-                </p>
+                <h3> Joanna Gill </h3>
+                <h4> Endurance </h4>
+                
+                <div class="flex-row">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+                        itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
+                    </p>
+                </div>
             </div>
             <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout">
         </article>
@@ -171,11 +192,14 @@
         <article class="trainer">
             <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights">
             <div class="trainer-bio text-left">
-                <h3>Harry "the Headband" Smith </h3>
-                <h4>Strength</h4>
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
+                <h3> Harry "the Headband" Smith </h3>
+                <h4 >Strength </h4>
+
+                <div class="flex-row">
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed
                     itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!
-                </p>
+                    </p>
+                </div>
             </div>
         </article>
 
@@ -183,8 +207,10 @@
 
         <!-- "reach out" section -->
         <section id="reach-out" class="contact" >
+            <div class="flex-row">
+                <h2 class="section-title secondary-border">Reach Out </h2>
+            </div>
             
-            <h2 class="section-title secondary-border">Reach Out</h2>
             <div class="contact-info">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.6045245356204!2d-118.27610598496254!3d33.92557663184226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c98704fbfc35%3A0xab2a5a52187b3f72!2sS%20Main%20St%2C%20California!5e0!3m2!1sen!2sus!4v1647713741566!5m2!1sen!2sus"
                     style="border: 0;" 
