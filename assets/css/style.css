@@ -101,7 +101,7 @@ footer a {
     background-color: #fce138;
     padding: 20px;
     color: #024e76; 
-    width: 40%;
+    width: 75%;
     margin: 3.5%;   
 }
 
@@ -139,10 +139,6 @@ h3 {
      text-align:center;
  }
 
- .steps {
-     background: #fce138;
- }
-
  .section-title {
     font-size: 55px;
     color: #024e76;
@@ -160,6 +156,11 @@ h3 {
  .secondary-border {
      border-color: #39a6b2;
  }
+
+ .steps {
+    background: #fce138; 
+ } 
+
  .steps div {
      margin-bottom:80px;
  }
