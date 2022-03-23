@@ -258,18 +258,22 @@ h3 {
     color:#fce138;
 }
 
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
 .contact-info iframe {
-    width: 400px;
     height: 400px;
 }
 
 .contact-info div {
-    display: inline-block;
-    width: 410px;
-    vertical-align: top;
-    color: white;
-    margin: 60px -32px 0px 60px;
-    text-align: left;
+    color: white;    
 }
 
 .contact-info h3 {
@@ -280,8 +284,29 @@ h3 {
 .contact-info p, .contact-info address {
     margin: 20 px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
 }
 
 .contact-info a {
