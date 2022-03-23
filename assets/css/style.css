@@ -22,6 +22,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -49,6 +50,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header h1 {
@@ -99,13 +101,18 @@ footer a {
 /*Hero Style End */
 
 .hero-form {border: 3px solid #024e76;
-    background-color: #fce138;
+    background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
     color: #024e76; 
     width: 70%;
-    margin: 3.5%;   
+    margin: 3.5%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
 }
 
+.hero-form button {
+    border-radius: 10px;
+}
 .hero-cta {
     width: 35%;
     text-align: right;
@@ -119,6 +126,8 @@ footer a {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
 h3 {
@@ -298,6 +307,7 @@ h3 {
     width: 100%;
     margin-top: 5px;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 .contact-form button {
@@ -308,6 +318,7 @@ h3 {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 .contact-info a {
